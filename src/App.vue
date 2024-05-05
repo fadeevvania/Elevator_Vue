@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <TheFloor></TheFloor> -->
+  <ElevatorShaft></ElevatorShaft>
+  <!-- <TheElevator></TheElevator> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import TheElevator from './components/TheElevator.vue';
+import ElevatorShaft from './components/ElevatorShaft.vue';
+// import TheFloor from './components/TheFloor.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  // TheElevator,
+    ElevatorShaft,
+    // TheFloor
   }
 }
 </script>
@@ -23,4 +28,43 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+/* App.vue 
+.elevator-shaft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  ;
+}
+
+.elevator {
+  width: 100px;
+  height: 200px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.floor {
+  margin: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.button.active {
+  background-color: yellow;
+}
+
+.button.green {
+  background-color: green;
+}
+*/</style>
